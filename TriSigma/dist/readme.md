@@ -11,8 +11,7 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
 3. [Configuration Files](#configuration-files)
    - [`configs.json`](#1-configsjson)
    - [`datas.txt`](#2-datastxt)
-   - [`wallets.txt`](#3-walletstxt)
-   - [`proxies.txt`](#4-proxiestxt)
+   - [`proxies.txt`](#3-proxiestxt)
 4. [Running the Bot](#running-the-bot)
 5. [Contact and Support](#contact-and-support)
 
@@ -68,9 +67,7 @@ This file controls the bot’s behavior. Below is an example configuration:
 
 - **Fields Explained:**
   - `timeZone`: Time zone setting (e.g., "en-US").
-  - `rotateProxy`: Enable or disable proxy rotation.
   - `skipInvalidProxy`: Skip invalid proxies if `true`.
-  - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
